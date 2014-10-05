@@ -5,7 +5,8 @@
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item">
-    <p>{{ site.description }}</p>
+    {% capture description %}{% include description.md %}{% endcapture %}
+    <p>{{ description | markdownify }}</p>
   </div>
 
   <nav class="sidebar-nav">
