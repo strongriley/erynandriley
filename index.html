@@ -2,6 +2,10 @@
 layout: default
 title: Home
 ---
+<div class="home">
+  {% capture home %}{% include home.md %}{% endcapture %}
+  {{ home | markdownify }}
+</div>
 
 <div class="posts">
   {% for post in paginator.posts %}
