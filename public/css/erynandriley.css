@@ -1,0 +1,29 @@
+.masthead {
+  background-image: url('../lake-tahoe.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: top center;
+  background-attachment: fixed;
+}
+/* Always put it at the center */
+.masthead-title {
+  text-align: center;
+  margin: 100px auto;
+}
+.masthead-title a {
+  color: #fff !important;
+}
+
+/* TODO what if too small? */
+
+/* TODO pick our color */
+.theme-base-wedding .sidebar,
+.theme-base-wedding .sidebar-toggle:active,
+.theme-base-wedding #sidebar-checkbox:checked ~ .sidebar-toggle {
+  /* background-color: #386071; */
+}
+.theme-base-wedding .container a,
+.theme-base-wedding .sidebar-toggle,
+.theme-base-wedding .related-posts li a:hover {
+  /* color: #386071; */
+}
