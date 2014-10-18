@@ -9,24 +9,26 @@ title: Accommodations
 </p>
 
 {% for place in site.data.accommodations %}
-  <h3>{{ place.name }}</h3>
-  <div class="accommodation-images">
-    {% for image in place.images %}
-      <div class="image">
-        <img src="{{ site.baseurl }}public/accommodations/{{ place.slug }}/{{ image.file }}"
-             alt="{{ image.alt }}"
-             {% if image.height %}height="{{ image.height }}"{% endif %}>
-      </div>
-    {% endfor %}
-  </div>
+  <div class="place">
+    <h2>{{ place.name }}</h2>
+    <div class="accommodation-images">
+      {% for image in place.images %}
+        <div class="image">
+          <img src="{{ site.baseurl }}public/accommodations/{{ place.slug }}/{{ image.file }}"
+               alt="{{ image.alt }}"
+               {% if image.height %}height="{{ image.height }}"{% endif %}>
+        </div>
+      {% endfor %}
+    </div>
 
-  <ul>
-    <li>
-      Address: <a href="{{ place.map_url }}" target="_blank">{{ place.address }}</a>
-    </li>
-    <li>
-      Website: <a href="http://{{ place.url }}" target="_blank">{{ place.url }}</a>
-    </li>
-  </ul>
-  <p>{{ place.description }}</p>
+    <ul>
+      <li>
+        Address: <a href="{{ place.map_url }}" target="_blank">{{ place.address }}</a>
+      </li>
+      <li>
+        Website: <a href="http://{{ place.url }}" target="_blank">{{ place.url }}</a>
+      </li>
+    </ul>
+    <p>{{ place.description }}</p>
+  </div>
 {% endfor %}

@@ -28,6 +28,10 @@
   /* color: #386071; */
 }
 
+div.place {
+  margin-bottom: 50px;
+}
+
 div.image {
   float: left;
   margin: 0px 5px;
