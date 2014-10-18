@@ -1,0 +1,39 @@
+- slug: cottage-inn
+  name: The Cottage Inn
+  map_url: https://www.google.com/maps/place/The+Cottage+Inn/@39.1445641,-120.1548296,15z/data=!4m2!3m1!1s0x80997df4195ad56b:0xb51ed0b6b35b02ec
+  url: www.thecottageinn.com
+  address: 1690 W Lake Blvd, Tahoe City, CA 96145
+  images:
+    - alt: lodge
+      file: image.jpg
+    - alt: room
+      file: image2.jpg
+  description: We have reserved a block of rooms at the Cottage Inn. If you're interested in staying here, please let us know. Rates are around $160 per night.
+
+- slug: sunnyside
+  name: Sunnyside Restaurant & Lodge
+  map_url: https://www.google.com/maps/place/Sunnyside+Restaurant+%26+Lodge/@39.139109,-120.153613,15z/data=!4m2!3m1!1s0x0:0x7a4b70e801f86a94
+  url: www.sunnysideresort.com
+  address: 1850 W Lake Blvd, Tahoe City, CA 96145
+  images:
+    - alt: outside
+      file: outside.jpg
+    - alt: room with view
+      file: nice-room.jpg
+    - alt: room without view
+      file: smaller-room.jpg
+  description: Sunnyside, with more traditional hotel rooms, sits on the water
+    with a restaurant below. Rates range from $150 up to $380 per night.
+
+- slug: tahoma-meadows
+  name: Tahoma Meadows Bed and Breakfast
+  map_url: https://www.google.com/maps/place/Tahoma+Meadows/@39.068258,-120.134021,15z/data=!4m2!3m1!1s0x0:0x54e1113faebb4d5b
+  url: www.tahomameadows.com
+  address: 6821 W Lake Blvd, Tahoma, CA 96142
+  images:
+    - alt: outside
+      file: outside.jpg
+    - alt: inside
+      file: inside.jpg
+  description: Tahoma Meadows has a variety of cottages, from 2 people up to 8.
+    Some rooms have kitchens, but for those that don't, they provide breakfast. Rates range from $129 up to about $450 for larger cabins.
