@@ -52,4 +52,17 @@
       file: bedroom.jpg
   description: Just south of Tahoe City, Tahoe Tavern Properties has a range of
     condo rentals from 2 to 4 bedrooms sleeping up to 10. Rates range from $300
-    to $1,000 depending on size and quality.
+    to $1,000 depending on size and view.
+
+- slug: tahoe-marina-lodge
+  name: Tahoe Marina Lodge
+  map_url: https://www.google.com/maps/place/Tahoe+Marina+Lodge/@39.168621,-120.142503,15z/data=!4m2!3m1!1s0x80997d762392f74d:0x4edfed72c12ebcde
+  url: tahoeml.com
+  address: 270 North Lake Boulevard. Tahoe City, CA 96146
+  images:
+    - alt: outside
+      file: outside.jpg
+    - alt: inside
+      file: inside.jpg
+  description: Located in right in Tahoe City, Tahoe Marina Lodge has 1 or 2 bedroom
+    condos sleeping up to 4. Rates range from $130 to about $300.
