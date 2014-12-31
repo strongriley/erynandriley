@@ -14,7 +14,7 @@
   name: Sunnyside Restaurant & Lodge
   map_url: https://www.google.com/maps/place/Sunnyside+Restaurant+%26+Lodge/@39.139109,-120.153613,15z/data=!4m2!3m1!1s0x0:0x7a4b70e801f86a94
   url: www.sunnysideresort.com
-  address: 1850 W Lake Blvd, Tahoe City, CA 96145
+  address: 1850 W Lake Blvd. Tahoe City, CA 96145
   images:
     - alt: outside
       file: outside.jpg
@@ -29,7 +29,7 @@
   name: Tahoma Meadows Bed and Breakfast
   map_url: https://www.google.com/maps/place/Tahoma+Meadows/@39.068258,-120.134021,15z/data=!4m2!3m1!1s0x0:0x54e1113faebb4d5b
   url: www.tahomameadows.com
-  address: 6821 W Lake Blvd, Tahoma, CA 96142
+  address: 6821 W Lake Blvd. Tahoma, CA 96142
   images:
     - alt: outside
       file: outside.jpg
