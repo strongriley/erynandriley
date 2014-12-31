@@ -37,3 +37,19 @@
       file: inside.jpg
   description: Tahoma Meadows has a variety of cottages, from 2 people up to 8.
     Some rooms have kitchens, but for those that don't, they provide breakfast. Rates range from $129 up to about $450 for larger cabins.
+
+- slug: tahoe-tavern-properties
+  name: Tahoe Tavern Properties
+  map_url: https://www.google.com/maps/place/Tahoe+Tavern+Properties/@39.159561,-120.143909,15z/data=!4m2!3m1!1s0x80997d9a76625eaf:0x5a60bc6e3fb0bc3a
+  url: tavernproperties.com
+  address: 300 West Lake Boulevard. Tahoe City, CA 96145
+  images:
+    - alt: outside
+      file: outside.jpg
+    - alt: unit
+      file: unit.jpg
+    - alt: bedroom
+      file: bedroom.jpg
+  description: Just south of Tahoe City, Tahoe Tavern Properties has a range of
+    condo rentals from 2 to 4 bedrooms sleeping up to 10. Rates range from $300
+    to $1,000 depending on size and quality.
