@@ -66,3 +66,16 @@
       file: inside.jpg
   description: Located in right in Tahoe City, Tahoe Marina Lodge has 1 or 2 bedroom
     condos sleeping up to 4. Rates range from $130 to about $300.
+
+- slug: tahoe-luxury-properties
+  name: Tahoe Luxury Properties
+  url: www.tluxp.com
+  images:
+    - alt: two
+      file: two.jpg
+    - alt: one
+      file: one.jpg
+  description: Rent an entire vacation home in Tahoe. Tahoe Luxury Properties
+    has homes available for rent all over the Tahoe area. When searching, be
+    sure to note the address in relation to the West Shore Cafe &amp; Inn.
+    Rates vary widely starting at $350 for a 2 bedroom / 6-person house.

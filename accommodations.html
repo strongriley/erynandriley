@@ -22,9 +22,11 @@ title: Accommodations
     </div>
 
     <ul>
-      <li>
-        Address: <a href="{{ place.map_url }}" target="_blank">{{ place.address }}</a>
-      </li>
+      {% if place.address %}
+        <li>
+          Address: <a href="{{ place.map_url }}" target="_blank">{{ place.address }}</a>
+        </li>
+      {% endif %}
       <li>
         Website: <a href="http://{{ place.url }}" target="_blank">{{ place.url }}</a>
       </li>
