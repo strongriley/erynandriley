@@ -1,17 +1,21 @@
+html, h1, h2, h3, h4, h5, h6, .pagination, .sidebar, .masthead-title small {
+  font-family: "Sorts Mill Goudy", Georgia, "Times New Roman", serif;
+}
 .masthead {
-  background-image: url('../lake-tahoe.jpg');
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  background-position: top center;
-  background-attachment: fixed;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 /* Always put it at the center */
 .masthead-title {
+  font-size: 3em;
   text-align: center;
-  margin: 100px auto;
+  font-family: "Petit Formal Script", Georgia, "Times New Roman", serif;
 }
-.masthead-title a {
-  color: #fff !important;
+
+.masthead-title small {
+  display: block;
+  clear: both;
+  font-size: 0.5em;
 }
 
 /* TODO what if too small? */
@@ -55,7 +59,7 @@ div.accommodation-images {
 }
 
 nav.menu {
-  margin-bottom: 0.5em;
+  margin-top: 1em;
 }
 
 nav ul {
@@ -68,22 +72,77 @@ nav ul {
 nav li {
   text-align: center;
   float: left;
-  margin-right: 1em;
+  border-right: 1px solid #ddd;
+  padding: 0.5em;
 }
 
 @media (max-width: 56em) {
+  nav.menu {
+    margin-bottom: 1.5em;
+  }
+
   nav li {
     float: none;
-    margin-right: 0;
+    padding: 0;
+    border: none;
   }
 }
 
+nav li:first-child {
+  padding-left: 0;
+}
 nav li:last-child {
-  margin-right: 0;
+  padding-right: 0;
+  border-right: none;
 }
 
 footer {
   margin-top: 3em;
   text-align: center;
   font-size: 0.6em;
+}
+
+body.home .around-content {
+  background-image: url('../home.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: top center;
+  background-attachment: initial;
+
+  overflow: hidden; /* clearfix */
+  min-height: 700px;
+}
+
+.content {
+  padding-top: 2em;
+}
+
+body.home .content {
+  padding-top: 0;
+}
+
+
+@media (min-width: 60em) {
+  body.home .around-content {
+    min-height: 900px;
+  }
+}
+
+
+@media (min-width: 65em) {
+  body.home .around-content {
+    min-height: 1100px;
+  }
+}
+
+@media (max-width: 56em) {
+  body.home .around-content {
+    min-height: 600px;
+  }
+}
+
+@media (max-width: 38em) {
+  body.home .around-content {
+    min-height: 400px;
+  }
 }

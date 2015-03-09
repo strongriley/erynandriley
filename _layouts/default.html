@@ -3,33 +3,34 @@
 
   {% include head.html %}
 
-  <body class="theme-base-0b">
+  <body class="theme-base-0b {% if page.url == '/'%}home{% endif %}">
 
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
     <div class="wrap">
       <div class="masthead">
         <div class="container">
-          <nav class="menu flex-container">
-            <ul class="clearfix">
-              <li><a>Home</a></li>
-              <li><a>Festivities</a></li>
-              <li><a href="/accommodations">Accommodations</a></li>
-              <li><a>The Place</a></li>
-              <li><a>Registry</a></li>
-              <li><a>RSVP</a></li>
-            </ul>
-          </nav>
           <h3 class="masthead-title">
             <a href="/" title="Home">{{ site.title }}</a>
-            <br>
             <small>{{ site.tagline }}</small>
           </h3>
+          <nav class="menu flex-container">
+            <ul class="clearfix">
+              <li><a href="/">Home</a></li>
+              <li><a href="/festivities">Festivities</a></li>
+              <li><a href="/accommodations">Accommodations</a></li>
+              <li><a href="/the-place">The Place</a></li>
+              <li><a href="/registry">Registry</a></li>
+              <li><a href="/rsvp">RSVP</a></li>
+            </ul>
+          </nav>
         </div>
       </div>
 
-      <div class="container content">
-        {{ content }}
+      <div class="wrap around-content">
+        <div class="container content">
+          {{ content }}
+        </div>
       </div>
 
       <footer>
