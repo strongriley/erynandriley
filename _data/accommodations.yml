@@ -8,7 +8,7 @@
       file: image.jpg
     - alt: room
       file: image2.jpg
-  description: We have reserved a block of rooms at the Cottage Inn. If you're interested in staying here, please let us know. Rates are around $160 per night.
+  description: We have reserved a block of rooms at the Cottage Inn. Rates are around $160 per night.
 
 - slug: sunnyside
   name: Sunnyside Restaurant & Lodge
