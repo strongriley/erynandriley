@@ -4,5 +4,19 @@ title: Contact Us
 ---
 
 <p>
-Coming soon!
-</p>
+  <form class="contact" action="//formspree.io/eryn-and-riley@googlegroups.com" method="POST">
+      <label for="name">Name</label>
+      <input id="name" type="text" name="name" placeholder="Your name">
+
+      <label for="email">Email address</label>
+      <input id="email" type="email" name="_replyto" placeholder="email@example.com">
+
+      <label for="help">What can we help you with?</label>
+      <textarea id="help" name="help" rows="5"></textarea>
+
+      <input type="text" name="_subject" value="Wedding contact form" style="display:none" />
+      <input type="text" name="_gotcha" style="display:none" />
+      <input type="hidden" name="_next" value="//www.erynandriley.com/contact-thanks/" />
+
+      <input class="btn" type="submit" value="Send">
+  </form>
