@@ -158,3 +158,25 @@ body.home .content {
     min-height: 400px;
   }
 }
+
+label {
+  display: block;
+}
+
+input, textarea {
+  width: 100%;
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+input.contact {
+  padding: 8px 20px;
+  border-radius: 20px;
+  border: 1px black solid;
+  background-color: white;
+  cursor: pointer;
+}
+
+input.contact:hover, input.contact:focus {
+  background-color: #f3f3f3;
+}
