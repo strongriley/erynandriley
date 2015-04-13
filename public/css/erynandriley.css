@@ -1,3 +1,13 @@
+.theme-base-wedding .sidebar,
+.theme-base-wedding .sidebar-toggle:active,
+.theme-base-wedding #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #3b4d14;
+}
+.theme-base-wedding .container a,
+.theme-base-wedding .sidebar-toggle,
+.theme-base-wedding .related-posts li a:hover {
+  color: #3b4d14;
+}
 html, h1, h2, h3, h4, h5, h6, .pagination, .sidebar, .masthead-title small {
   font-family: "Sorts Mill Goudy", Georgia, "Times New Roman", serif;
 }
