@@ -60,6 +60,8 @@ div.accommodation-images {
 
 nav.menu {
   margin-top: 1em;
+  /* Enable if we include updates page */
+  /* font-size: 0.85em; */
 }
 
 nav ul {
