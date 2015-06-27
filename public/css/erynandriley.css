@@ -28,6 +28,14 @@ html, h1, h2, h3, h4, h5, h6, .pagination, .sidebar, .masthead-title small {
   font-size: 0.5em;
 }
 
+.masthead {
+  margin-bottom: 1em;
+}
+
+.home .masthead {
+  margin-bottom: 0em;
+}
+
 /* TODO what if too small? */
 
 /* TODO pick our color */
