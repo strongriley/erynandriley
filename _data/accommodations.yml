@@ -79,3 +79,15 @@
     has homes available for rent all over the Tahoe area. When searching, be
     sure to note the address in relation to the West Shore Cafe &amp; Inn.
     Rates vary widely starting at $350 for a 2 bedroom / 6-person house.
+
+- slug: cedar-crest-cottages
+  name: Cedar Crest Cottages
+  url: www.cedarcrestcottages.com
+  images:
+    - alt: outside
+      file: outside.jpg
+    - alt: inside
+      file: inside.jpg
+  description: Just a 10 minute walk from West Shore Cafe and Inn, Cedar Crest
+    Cottages offer whole homes from one bedroom up to three. Rates start at
+    $249 up to $445 for the larger units.
