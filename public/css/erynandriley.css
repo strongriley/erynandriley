@@ -190,3 +190,16 @@ input.contact {
 input.contact:hover, input.contact:focus {
   background-color: #f3f3f3;
 }
+
+a.honeymoon {
+  display: inline-block;
+  /* width: 100px; */
+  font-size: 16px;
+  background-color: #3b4d14;
+  padding: 10px 50px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  color: white !important;
+  font-family: arial;
+}

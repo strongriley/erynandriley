@@ -1,0 +1,20 @@
+---
+layout: page
+title: Honeymoon
+---
+<p>We are so looking forward to our honeymoon. Many thanks for helping make it the most memorable trip of our lives!
+  <br>-Eryn and Riley
+</p>
+
+<p>Use the links below and use Square Cash to send funds into our joint account.</p>
+
+{% for place in site.data.honeymoon %}
+<div>
+  <h3>{{ place.title }}</h3>
+  <img src="{{ site.baseurl }}public/honeymoon/{{ place.image }}"
+       alt="{{ place.title }}">
+  <p>{{ place.description}}</p>
+  <a class="honeymoon" target="_blank" href="https://cash.me/$riley/{{ place.amount }}">${{ place.amount }}</a>
+</div>
+
+{% endfor %}

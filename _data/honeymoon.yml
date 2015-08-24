@@ -1,0 +1,21 @@
+- title: Museum ticket
+  image: museum.jpg
+  description: Fund one musuem ticket either in Cape Town or
+    Europe.
+  amount: 20
+
+- title: Train ticket to Salzburg
+  image: train.jpg
+  description: Fund a train ticket as we travel throughout western Europe.
+  amount: 50
+
+- title: Dinner for two
+  image: dinner.jpg
+  description: Fund a romantic dinner for two.
+  amount: 100
+
+- title: One night in Cape Town
+  image: cape_town.jpg
+  description: Fund one night in beautiful Cape Town at an Airbnb.
+  amount: 150
+
