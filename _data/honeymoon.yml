@@ -1,20 +1,35 @@
-- title: Museum ticket
+- title: Museum tickets for two
+  left: 5
+  total: 5
   image: museum.jpg
   description: Fund one musuem ticket either in Cape Town or
     Europe.
-  amount: 20
+  amount: 40
 
-- title: Train ticket to Salzburg
+- title: 2 train tickets to Salzburg
+  left: 1
+  total: 1
   image: train.jpg
   description: Fund a train ticket as we travel throughout western Europe.
-  amount: 50
+  amount: 100
 
 - title: Dinner for two
+  left: 4
+  total: 5
   image: dinner.jpg
   description: Fund a romantic dinner for two.
   amount: 100
 
+- title: Great White Shark Diving
+  left: 2
+  total: 2
+  image: sharks.jpg
+  description: Send Eryn and Riley under the ocean to get up close with Great White sharks. Fund one of the two tickets.
+  amount: 110
+
 - title: One night in Cape Town
+  left: 5
+  total: 5
   image: cape_town.jpg
   description: Fund one night in beautiful Cape Town at an Airbnb.
   amount: 150
