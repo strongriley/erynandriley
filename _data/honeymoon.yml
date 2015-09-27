@@ -1,5 +1,5 @@
 - title: Museum tickets for two
-  left: 5
+  left: 3
   total: 5
   image: museum.jpg
   description: Fund one musuem ticket either in Cape Town or
@@ -21,7 +21,7 @@
   amount: 100
 
 - title: Great White Shark Diving
-  left: 2
+  left: 1
   total: 2
   image: sharks.jpg
   description: Send Eryn and Riley under the ocean to get up close with Great White sharks. Fund one of the two tickets.
