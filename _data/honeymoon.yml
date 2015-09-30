@@ -1,17 +1,18 @@
 - title: Museum tickets for two
-  left: 3
+  left: 2
   total: 5
   image: museum.jpg
   description: Fund one musuem ticket either in Cape Town or
     Europe.
   amount: 40
 
-- title: 2 train tickets to Salzburg
-  left: 1
-  total: 1
-  image: train.jpg
-  description: Fund a train ticket as we travel throughout western Europe.
-  amount: 100
+# bought
+# - title: 2 train tickets to Salzburg
+#   left: 1
+#   total: 1
+#   image: train.jpg
+#   description: Fund a train ticket as we travel throughout western Europe.
+#   amount: 100
 
 - title: Dinner for two
   left: 4
